@@ -6,7 +6,7 @@ const bodyParser = require('body-parser');
 require('dotenv').config();
 
 //Connection URL 
-MONGODB_URI='mongodb+srv://iamsagar762:Sagar10%40singh@cluster0.1x5j95v.mongodb.net/?retryWrites=true&w=majority'
+MONGODB_URI= process.env.mongodb_uri
 
 
 
